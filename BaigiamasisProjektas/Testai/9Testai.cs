@@ -10,18 +10,22 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Testai
     {
         private Metodai metodai;
 
+        private MetodaiKaunas metodaiKaunas;
+
+        private MetodaiHumanitas metodaiHumantitas;
+
         [Test]
 
         public void Humanitas()
         {
 
-            metodai.PriesKiekvienaTestaHuman();
-            metodai.Bumblauskas();
-            metodai.poKiekvienoTesto();
+            metodaiHumantitas.PriesKiekvienaTestaHuman();
+            metodaiHumantitas.Bumblauskas();
+            metodaiHumantitas.poKiekvienoTesto();
 
-            metodai.PriesKiekvienaTestaHuman();
-            metodai.PrisijungimasIrKrepselis();
-            metodai.poKiekvienoTesto();
+            metodaiHumantitas.PriesKiekvienaTestaHuman();
+            metodaiHumantitas.PrisijungimasIrKrepselis();
+            metodaiHumantitas.poKiekvienoTesto();
 
         }
 
@@ -50,17 +54,17 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Testai
 
         public void Kaunas()
         {
-            metodai.priesKiekvienaTestaKaunas();
-            metodai.Sabonis();
-            metodai.poKiekvienoTesto();
+            metodaiKaunas.priesKiekvienaTestaKaunas();
+            metodaiKaunas.Sabonis();
+            metodaiKaunas.poKiekvienoTesto();
 
-            metodai.priesKiekvienaTestaKaunas();
-            metodai.FormosUzsakymas();
-            metodai.poKiekvienoTesto();
+            metodaiKaunas.priesKiekvienaTestaKaunas();
+            metodaiKaunas.FormosUzsakymas();
+            metodaiKaunas.poKiekvienoTesto();
 
-            metodai.priesKiekvienaTestaKaunas();
-            metodai.Turizmopuslapis();
-            metodai.poKiekvienoTesto();
+            metodaiKaunas.priesKiekvienaTestaKaunas();
+            metodaiKaunas.Turizmopuslapis();
+            metodaiKaunas.poKiekvienoTesto();
 
         }
 
