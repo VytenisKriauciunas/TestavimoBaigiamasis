@@ -6,7 +6,7 @@ using AutoPaskaitos.BaigiamasisProjektas.Testai;
 
 namespace AutoPaskaitos.BaigiamasisProjektas.Testai
 {
-    class _9Testai
+    class DevyniTestai
     {
         private Metodai metodai;
 
