@@ -12,12 +12,13 @@ using System.Threading;
 
 namespace AutoPaskaitos.BaigiamasisProjektas.Testai
 {
-    class Humanitas
+    
+    public class Humanitas
     {
         private IWebDriver driver;
 
         [SetUp]
-        public void priesKiekvienaTesta()
+        public void priesKiekvienaTestaHuman()
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
