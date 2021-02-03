@@ -59,7 +59,7 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Testai
             driver.FindElement(By.CssSelector(".isbn-search > input")).Click();
             driver.FindElement(By.CssSelector(".isbn-search > input")).SendKeys("Obama");
             driver.FindElement(By.CssSelector(".isbn-search > input")).SendKeys(Keys.Enter);
-            driver.FindElement(By.CssSelector(".book-218881")).Click(); // Del kazkokiu priezasciu kartais skipina sia eilute ir uzlusta
+            driver.FindElement(By.CssSelector(".book-218881")).Click();
             driver.FindElement(By.CssSelector("#to_cart")).Click();
             driver.FindElement(By.CssSelector(".cart-start > .row_to_cart")).Click();
             driver.FindElement(By.CssSelector(".dlv-3 > .r")).Click();
